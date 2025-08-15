@@ -1,12 +1,54 @@
-# React + Vite
+# 🗡️ Sverd og Skje 🥄 - Restaurantmeny
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Velkommen til **Sverd og Skje**! En liten React-app laget med **Vite** som viser en restaurantmeny i et moderne grid-format. Klikk på et kort for å se et bilde av retten 🖼️✨
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Funksjoner
 
-## Expanding the ESLint configuration
+- **Komponentbasert** 🧩  
+  - `App.jsx` → Hovedkomponent  
+  - `Menu.jsx` → Viser alle retter i grid  
+  - `Dish.jsx` → Kort med tittel, pris og ingredienser  
+  - Modal → Klikk på et kort for å se bilde av retten  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Styling** 🎨  
+  - CSS Modules for modularitet  
+  - Kort med ramme, skygge og tydelig font  
+  - Hover-effekter og klikkeffekt for modal  
+
+- **Responsivt** 📱  
+  - Grid tilpasser seg skjermstørrelse  
+  - Fleksible kort med `rem`-baserte marginer  
+
+---
+
+## 🍽️ Menyen
+
+- Spaghetti Bolognese 🍝  
+- Kremet Kyllingsuppe 🍲  
+- Margarita Pizza 🍕  
+- Sushi Mix 🍣  
+- Cæsarsalat 🥗  
+- Brownie med Is 🍫🍨  
+- Taco Tallerken 🌮  
+- Pannekaker med Syltetøy 🥞  
+- Reker med Sitron 🍤  
+- Entrecôte med Grønnsaker 🥩🥦  
+
+---
+
+## 📦 Teknologier
+
+- React ⚛️  
+- Vite ⚡  
+- CSS Modules 🎨  
+- JavaScript 🟨  
+
+---
+
+## 💡 Ekstra
+
+- Klikk på kort for å se bilde av retten 🖼️  
+- Responsivt grid-layout  
+- Hover-effekter på kort ✨  
