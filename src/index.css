@@ -1,0 +1,14 @@
+/* Google Fonts for middelalder-vibe */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Uncial+Antiqua&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background: url('/public/bilder/pergament-bg.jpg') center/cover no-repeat;
+  color: #3e2f1c;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Uncial Antiqua', serif;
+}
